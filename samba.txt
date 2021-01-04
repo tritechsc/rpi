@@ -1,0 +1,20 @@
+ Samba server and utilities ├───────────────────────┐
+ │                                                                           │ 
+ │ If your computer gets IP address information from a DHCP server on the    │ 
+ │ network, the DHCP server may also provide information about WINS servers  │ 
+ │ ("NetBIOS name servers") present on the network.  This requires a change  │ 
+ │ to your smb.conf file so that DHCP-provided WINS settings will            │ 
+ │ automatically be read from /var/lib/samba/dhcp.conf.                      │ 
+ │                                                                           │ 
+ │ The dhcp-client package must be installed to take advantage of this       │ 
+ │ feature.                                                                  │ 
+ │                                                                           │ 
+ │ Modify smb.conf to use WINS settings from DHCP?                           │ 
+ │                                                                           │ 
+ │                    <Yes>                       <No>                       │ 
+ │                                                                           │ 
+ └───────────────────────────────────────────────────────────────────────────┘ 
+                                                                               
+
+
+
